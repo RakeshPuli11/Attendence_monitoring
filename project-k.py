@@ -122,6 +122,8 @@ class Ui_MainWindow(object):
         con.commit()
         QtWidgets.QMessageBox.information(
             None, 'Success', 'Attendance marked successfully.')
+        con.close()
+
 #my_cursor.execute(r"select nominal_eve.roll_no,nominal_eve.user_name, if( timestampdiff(hour,CONVERT_TZ(nominal_mor.today, '+00:00', '+05:30'), CONVERT_TZ(nominal_eve.today, '+00:00', '+05:30'))>=6,'PRESENT','ABSENT') as time_difference from nominal_mor join nominal_eve on nominal_mor.roll_no=nominal_eve.roll_no")
 #use it in mysql to know if attendence is marked
 
