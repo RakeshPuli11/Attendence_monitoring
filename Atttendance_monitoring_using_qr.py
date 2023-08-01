@@ -49,10 +49,10 @@ class QRCodeScanner:
         return decoded_info[0] if decoded_info else None
 
     def email_send(self):
-        sender = 'researchmailforcomplexguy@gmail.com'
-        self.receiver = 'jirecer594@wiemei.com'
-        password = 'bkftyfalkomrwdfd'
-        msg = "your attendance has been marked"
+        sender = 'ni mail pettavayya'
+        self.receiver = 'nuvvu pampetodidhi pettu--(mailu)'
+        password = 'poi yt lo search cheyyi less secure authentication etla chestaro App password gurinchi'
+        msg = "Schoolukocchi manchi pani chesinav gammuna oka mula kusoni chaduvuko"
         subject = "attendance notification"
         em = EmailMessage()
         em['From'] = sender
