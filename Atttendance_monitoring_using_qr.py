@@ -165,7 +165,7 @@ class AttendanceMonitor(QRCodeScanner):
 
 if __name__ == "__main__":
     con = mysql.connector.connect(
-        host="localhost", user="root", password="MySql@2157", database="attendance"
+        host="localhost", user="root", password="xxxxxxxx", database="attendance"
     )
     if con.is_connected():
         print("Connect ayyindhi bhaiyyah.")
